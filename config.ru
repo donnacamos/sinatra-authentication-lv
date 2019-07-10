@@ -9,4 +9,6 @@ if ActiveRecord::Migrate.needs_migration?
 end 
 
 use Rack::MethodOverride 
+use Rack::Session::Cookie 
+use View::Controller 
 run ApplicationController 
