@@ -1,5 +1,7 @@
 require File.expand_path('app', File.dirname(__FILE__))
 
+require_relative './config/environment' 
+
 require './config/environment' 
 
 if ActiveRecord::Migrate.needs_migration? 
