@@ -6,7 +6,8 @@ class ApplicationController < Sinatra::Base
   
   # test 
   get '/login' do 
-    erb ":sessions/login" 
+    erb :"sessions/login" 
   end 
+  
   
 end 
