@@ -1,4 +1,4 @@
-require_relative './config/environment'
+require File.expand_path('app', File.dirname(__FILE__))
 
 require './config/environment' 
 
