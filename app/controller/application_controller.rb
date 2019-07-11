@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
       session[:email] = email
     end 
     
-    def logout 
+    def logout! 
       session.clear
     end 
   end 
