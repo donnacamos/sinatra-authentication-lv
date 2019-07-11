@@ -1,7 +1,7 @@
 require "./config/environment.rb"
 
 class ApplicationController < Sinatra::Base 
-  config do 
+  configure do  
     set :public_folder, 'public' 
     set :views, 'app/views' 
     enable :sessions
