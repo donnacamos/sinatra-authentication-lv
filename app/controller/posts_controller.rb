@@ -17,7 +17,7 @@ class PostsController < ApplicationController
      if !logged_in?
       redirect '/login' # redirecting if they aren't 
     else 
-      "An edit post form" # rendering if they are 
+      "An edit post form #{current_user.id} is editing #{post.id}" # rendering if they are 
     end 
   end
 end 
