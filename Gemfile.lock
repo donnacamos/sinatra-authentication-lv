@@ -13,6 +13,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
+    bcrypt (3.1.18)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     i18n (1.6.0)
@@ -41,7 +42,7 @@ GEM
     sqlite3 (1.4.1)
     thread_safe (0.3.6)
     tilt (2.0.9)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
 
 PLATFORMS
@@ -49,6 +50,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  bcrypt (~> 3.1.7)
   pry
   rake
   require_all
